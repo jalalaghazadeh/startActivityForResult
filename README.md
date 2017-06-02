@@ -8,4 +8,4 @@ A few things you need to be aware of:
 * Be careful when using android:launchMode="singleInstance". On devices before Lollipop (Android 5.0, API Level 21), Activities will not return a result.
 * You can use explicit or implicit intents when you call startActivityForResult(). When starting one of your own activities to receive a result, you should use an explicit intent to ensure that you receive the expected result. An explicit intent is always delivered to its target, no matter what it contains; the filter is not consulted. But an implicit intent is delivered to a component only if it can pass through one of the component's filters.
 
->> source (stackoverflow's documentation): https://stackoverflow.com/documentation/android/103/intent#t=201706020946147606548
+>source (stackoverflow's documentation): https://stackoverflow.com/documentation/android/103/intent#t=201706020946147606548
